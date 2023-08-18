@@ -1,0 +1,21 @@
+package Practice;
+
+import java.util.Scanner;
+
+public class AreaOfCircle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner in=new Scanner(System.in); //create scanner object  read user input
+		System.out.println("Enter a radius of Circle: ");
+		double r=in.nextDouble(); // to give input from user
+		
+		double area=3.14* Math.pow(r, 2); // area of square formula
+		
+		System.out.println("Area of Square is: "+area); // print area of square
+        
+		in.close();// close the scanner
+	}
+
+}
