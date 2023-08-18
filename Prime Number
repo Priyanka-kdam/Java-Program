@@ -1,0 +1,38 @@
+package Assignment;
+
+import java.util.Scanner;
+
+public class JavaQ2Prime {
+   
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println("enter starting  range");
+		int start = in.nextInt();
+		System.out.println("enter ending  range");
+		int end = in.nextInt();
+		
+      
+		//System.out.println("prime number beetween 10 to 50 are...:");
+		for(int i=10;i<=50;i++) {
+			boolean isPrime = true;
+			for(int j=2;j<i;j++) {
+				
+				if(i%j==0) {
+					isPrime = false;
+					break;
+				}
+			}
+			if(isPrime) {
+				System.out.print(i+ " ");
+			}
+		}
+	}
+			 
+		
+		  
+	
+			
+	
+
+}
