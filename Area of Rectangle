@@ -1,0 +1,25 @@
+package Assignment;
+
+import java.util.Scanner;
+
+public class AreaOfReactangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner ab=new Scanner(System.in);
+		
+		System.out.println("Enter the Length of Rectangle: ");
+		double length=ab.nextDouble();
+		
+		System.out.println("Enter the Width of the Rectangle: ");
+		double width =ab.nextDouble();
+		
+		double area=length * width;
+		
+		System.out.println("Area of Rectangle is :" + area);
+		 
+		ab.close();
+		
+	}
+
+}
