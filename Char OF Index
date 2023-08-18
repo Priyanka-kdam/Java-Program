@@ -1,0 +1,21 @@
+package Practice;
+
+public class CharcterOfIndex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str="java"; // string variable str assign value java
+		// ()str.charAt(4) ::This line calls the CharAt() method on the 'str' object, passing the index'4' as the argument
+		// since string is zero based indexes let's check th charcters at each index
+		//index 0:'j'
+		//index 1: 'a'
+		//index 2: 'v'
+		//index 3: 'a'
+		// the string doesnt have an index 4 because it has a length of 4 charcters(indices 0 t0 3)
+		System.out.println(str.charAt(4));
+		// when you try to access an index is out of the bounds of the strig (in this case, inde 4 ), it will result in "StringIndexOutOFBoundsException"
+
+	}
+
+}
