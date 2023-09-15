@@ -1,0 +1,30 @@
+package Assignment;
+
+import java.util.Scanner;
+
+public class PrimeNum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner(System.in);
+		
+		System.out.println("Enter a Number: ");//++i is called pre-increment, where the value is incremented before it's used in the expression.
+		                                        //i++ is called post-increment, where the value is used in the expression first and then incremented.
+		int num =in.nextInt();
+		boolean flag=false;
+		
+		for( int i=2 ; i<=num/2; ++i) {  
+			if(num%2==0);		{
+		    flag=true; // check the statement is true or not
+			break; //Exit the loop if factor is found
+			}
+			
+		}
+         if (! flag) {
+        	 System.out.println("Number is Prime Number");
+         }else {
+        	 System.out.println("Number is not prime");
+         }
+	}
+
+}
